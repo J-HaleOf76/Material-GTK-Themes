@@ -103,7 +103,7 @@ Run the following command in the terminal for a general installation
 > The `./install.sh` allows some specific options like:
 
 ```sh
-./install.sh --tweaks oceanic macos outline float -t green -l
+./install.sh --tweaks oceanic macos outline float -t red -l
 ```
 
 > To customise the name of the theme, you can use the `-n` parameter, e.g.
@@ -122,7 +122,7 @@ Run the following command in the terminal for a general installation
 
 -n, --name NAME         Specify theme name (Default: Material)
 
--t, --theme VARIANT...  Specify theme accent color variant(s) [default|purple|pink|red|orange|yellow|green|teal|grey|all] (Default: blue)
+-t, --theme VARIANT...  Specify theme accent color variant(s) [default|green|grey|orange|pink|purple|red|teal|yellow|all] (Default: blue)
 
 -c, --color VARIANT...  Specify color variant(s) [light|dark] (Default: All variants)
 
@@ -135,10 +135,10 @@ Run the following command in the terminal for a general installation
 -u, --uninstall         Uninstall/Remove installed themes or links
 
 --tweaks                Specify versions for tweaks
-                        1. [darker|oceanic|palenight]  Darker|Oceanic|Palenight ColorSchemes version
-                        2. black          Blackness color version
-                        3. float          Floating gnome-shell panel style
-                        4. outline        Windows with 2px outline style
+                        1. [darker|oceanic|palenight] Darker|Oceanic|Palenight ColorSchemes version
+                        2. black       Blackness color version
+                        3. float       Floating gnome-shell panel style
+                        4. outline     Windows with 2px outline style
 
 -h, --help              Show help
 ```
