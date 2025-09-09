@@ -267,7 +267,7 @@ while [[ $# -gt 0 ]]; do
 				themes+=("${THEME_VARIANTS[4]}")
 				shift
 				;;
-			pruple)
+			purple)
 				themes+=("${THEME_VARIANTS[5]}")
 				shift
 				;;
